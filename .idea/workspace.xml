@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9183d935-88c0-4373-8fec-ff668629af7b" name="Default Changelist" comment="Reformat">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/AlgorithmPlayer_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/AlgorithmPlayer_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/ConsolePlayer_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/ConsolePlayer_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Game_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Game_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Participant_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Participant_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Rules_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Rules_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Solver_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/logic/Solver_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/GameClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/SimpleConsole$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/SimpleConsole$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/SimpleConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/client/SimpleConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/GameHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/GameHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/GameRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/RemoteIO_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/RemoteIO_Impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/RemotePlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/networking/server/handler/game/RemotePlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/tictactoe/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/tictactoe/Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpp/games/tictactoe/BoardState_ttt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpp/games/tictactoe/BoardState_ttt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/logic/ConsolePlayer_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/logic/ConsolePlayer_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/logic/Game_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/logic/Game_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/logic/Participant_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/logic/Participant_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/logic/Rules_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/logic/Rules_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/logic/Solver_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/logic/Solver_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/model/Action_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/model/Action_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/model/GameState_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/model/GameState_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/client/GameClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/client/GameClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/client/SimpleConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/client/SimpleConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/client/handler/ClientHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/client/handler/ClientHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/Server_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/Server_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/database/DatabaseAccess_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/database/DatabaseAccess_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/GameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/GameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/ServerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/ServerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/RemoteIO_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/RemoteIO_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/RemotePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/networking/server/handler/game/RemotePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/tictactoe/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/tictactoe/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpp/games/tictactoe/BoardState_ttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpp/games/tictactoe/BoardState_ttt.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zl1cHXCc3FJNHGDtQA9rEvMeyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jpp.games.tictactoe" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StartServerUtility">
+    <configuration name="GameClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpp.games.networking.client.GameClient" />
+      <module name="tictactoe.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpp.games.networking.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServerUtility" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="jpp.games.networking.server.StartServerUtility" />
+      <module name="tictactoe.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpp.games.networking.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServerUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jpp.games.networking.server.StartServerUtility" />
+      <module name="tictactoe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpp.games.networking.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <output_file path="$PROJECT_DIR$/Logs/Logfile1.txt" is_save="true" />
+      <option name="MAIN_CLASS_NAME" value="jpp.games.TicTacToe" />
+      <module name="tictactoe.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpp.games.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GameClient" />
+      <item itemvalue="Application.TicTacToe" />
+      <item itemvalue="Application.StartServerUtility" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartServerUtility" />
+        <item itemvalue="Application.StartServerUtility" />
+        <item itemvalue="Application.GameClient" />
+        <item itemvalue="Application.TicTacToe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Program Files\SlikSvn\bin\svn.exe</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9183d935-88c0-4373-8fec-ff668629af7b" name="Default Changelist" comment="" />
+      <created>1585398944658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585398944658</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Check 34">
+      <created>1586349285733</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1586349285733</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Check 35">
+      <created>1586349582216</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1586349582216</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Check 36">
+      <created>1586351096985</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1586351096985</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Check 37">
+      <created>1586351598133</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1586351598133</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Check 37">
+      <created>1586351991749</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1586351991749</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Check 37">
+      <created>1586352390140</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1586352390140</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Check 37">
+      <created>1586352701146</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1586352701146</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Check 37">
+      <created>1586354264584</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1586354264584</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Check 37">
+      <created>1586356603949</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1586356603949</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Check 37">
+      <created>1586361148395</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1586361148395</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Check 37">
+      <created>1586361314646</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1586361314646</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Check 37">
+      <created>1586361815253</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1586361815253</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Circle works">
+      <created>1586370025699</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1586370025699</updated>
+    </task>
+    <task id="LOCAL-00057" summary="cirle works for real">
+      <created>1586370146959</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1586370146959</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Check 37">
+      <created>1586370705942</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1586370705942</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Check 38">
+      <created>1586371344262</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1586371344262</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Check 38">
+      <created>1586372700240</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1586372700240</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Check 38">
+      <created>1586377178429</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1586377178429</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Action equals">
+      <created>1586420267543</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1586420267544</updated>
+    </task>
+    <task id="LOCAL-00063" summary="action equals nullpointer">
+      <created>1586420589817</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1586420589817</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Check 39">
+      <created>1586422112109</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1586422112109</updated>
+    </task>
+    <task id="LOCAL-00065" summary="equals my ass">
+      <created>1586422602883</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1586422602883</updated>
+    </task>
+    <task id="LOCAL-00066" summary="changed == to .equals in ConsolePlayer_Impl requestAction">
+      <created>1586423414341</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1586423414341</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Removed while(true) loop from requestAction (Console)">
+      <created>1586424181232</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1586424181232</updated>
+    </task>
+    <task id="LOCAL-00068" summary="replaced return nextAction with break outerwhile and put return nexAction to the end">
+      <created>1586424684563</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1586424684563</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Removed &quot;your turn &quot; + Player">
+      <created>1586425494214</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1586425494214</updated>
+    </task>
+    <task id="LOCAL-00070" summary="rolled back to old state:&#10;break outerwhile removed&#10;return nextAction">
+      <created>1586428345532</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1586428345533</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Replaced Actionset with direct on boardState">
+      <created>1586429476311</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1586429476311</updated>
+    </task>
+    <task id="LOCAL-00072" summary="forgot to delete actionSet">
+      <created>1586429505417</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1586429505417</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Console output before if(isRunning)">
+      <created>1586432330035</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1586432330035</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added gameEndCallback() to leave in GameHandler">
+      <created>1586437696862</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1586437696862</updated>
+    </task>
+    <task id="LOCAL-00075" summary="GameHandler.leave()&#10;removed break outerloop,&#10;this way a player leaves ALL games he is in when typing leave, not only the first one found.">
+      <created>1586445079077</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1586445079077</updated>
+    </task>
+    <task id="LOCAL-00076" summary="GameHandler.leave():&#10;new structure and added callback if game was running&#10;&#10;listGames:&#10;if game was created but has no one joined instead of playerName there will be &quot;No Player&quot; displayed&#10;&#10;callBack:&#10;added increaseScore on user">
+      <created>1586453676405</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1586453676405</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Complete overhaul of GameHandler create and join:&#10;Creating a game does not automatically let the creating user join as a player&#10;When joining there are 3 branches for:&#10;0, 1, and 2 players">
+      <created>1586459142473</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1586459142473</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added bad request to return value when trying to join a full game">
+      <created>1586459599807</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1586459599807</updated>
+    </task>
+    <task id="LOCAL-00079" summary="pabs working now?">
+      <created>1586460198717</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1586460198717</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Changed ConsolePlayer requestAction:&#10;back to actionSet&#10;old version was still testing if boardState had null on position to verify that position is empty">
+      <created>1586461942123</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1586461942123</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Distinguishing between the two messages for invalid inputs in ConsolePlayer requestAction">
+      <created>1586462301796</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1586462301796</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Changed dinstinguish">
+      <created>1586462449539</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1586462449539</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Check 38">
+      <created>1586463148410</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1586463148410</updated>
+    </task>
+    <task id="LOCAL-00084" summary="testRequestAction&#10;trying to find out what the problem is">
+      <created>1586463367649</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1586463367649</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Check 38">
+      <created>1586463406648</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1586463406649</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Check 38">
+      <created>1586463823865</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1586463823865</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Check 38">
+      <created>1586464293973</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1586464293973</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Cannot find problem in: &#10;testConsolePlayer: testRequestAction">
+      <created>1586464440343</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1586464440343</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Implemented advice from forum:&#10;while(scanner.hasNext()) was replaced&#10;actionSet.contains instead of comparing Strings">
+      <created>1586515076342</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1586515076342</updated>
+    </task>
+    <task id="LOCAL-00090" summary="First commit">
+      <created>1597254547579</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1597254547579</updated>
+    </task>
+    <task id="LOCAL-00091" summary="First commit">
+      <created>1597254597302</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1597254597302</updated>
+    </task>
+    <task id="LOCAL-00092" summary="First commit">
+      <created>1597254678586</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1597254678586</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="action equals nullpointer" />
+    <MESSAGE value="Check 39" />
+    <MESSAGE value="equals my ass" />
+    <MESSAGE value="changed == to .equals in ConsolePlayer_Impl requestAction" />
+    <MESSAGE value="Removed while(true) loop from requestAction (Console)" />
+    <MESSAGE value="replaced return nextAction with break outerwhile and put return nexAction to the end" />
+    <MESSAGE value="Removed &quot;your turn &quot; + Player" />
+    <MESSAGE value="rolled back to old state:&#10;break outerwhile removed&#10;return nextAction" />
+    <MESSAGE value="Replaced Actionset with direct on boardState" />
+    <MESSAGE value="forgot to delete actionSet" />
+    <MESSAGE value="Console output before if(isRunning)" />
+    <MESSAGE value="added gameEndCallback() to leave in GameHandler" />
+    <MESSAGE value="GameHandler.leave()&#10;removed break outerloop,&#10;this way a player leaves ALL games he is in when typing leave, not only the first one found." />
+    <MESSAGE value="GameHandler.leave():&#10;new structure and added callback if game was running&#10;&#10;listGames:&#10;if game was created but has no one joined instead of playerName there will be &quot;No Player&quot; displayed&#10;&#10;callBack:&#10;added increaseScore on user" />
+    <MESSAGE value="Complete overhaul of GameHandler create and join:&#10;Creating a game does not automatically let the creating user join as a player&#10;When joining there are 3 branches for:&#10;0, 1, and 2 players" />
+    <MESSAGE value="Added bad request to return value when trying to join a full game" />
+    <MESSAGE value="pabs working now?" />
+    <MESSAGE value="Changed ConsolePlayer requestAction:&#10;back to actionSet&#10;old version was still testing if boardState had null on position to verify that position is empty" />
+    <MESSAGE value="Distinguishing between the two messages for invalid inputs in ConsolePlayer requestAction" />
+    <MESSAGE value="Changed dinstinguish" />
+    <MESSAGE value="testRequestAction&#10;trying to find out what the problem is" />
+    <MESSAGE value="Check 38" />
+    <MESSAGE value="Cannot find problem in: &#10;testConsolePlayer: testRequestAction" />
+    <MESSAGE value="Implemented advice from forum:&#10;while(scanner.hasNext()) was replaced&#10;actionSet.contains instead of comparing Strings" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1595927993683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1595927993683" />
+    <state x="657" y="139" key="#StartServerUtility" timestamp="1595928132117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#StartServerUtility/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1595928132117" />
+    <state x="-1346" y="109" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597251818802">
+      <screen x="-1600" y="-126" width="1600" height="1160" />
+    </state>
+    <state x="-1346" y="109" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597251818802" />
+    <state x="614" y="116" key="CommitChangelistDialog2" timestamp="1597255171178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="116" key="CommitChangelistDialog2/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255171178" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597253835576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597253835576" />
+    <state x="814" y="429" width="651" height="204" key="Github.ShareDialog" timestamp="1597253954915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-922" y="352" key="Github.ShareDialog/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253623474" />
+    <state x="814" y="429" width="651" height="204" key="Github.ShareDialog/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597253954915" />
+    <state width="938" height="320" key="GridCell.Tab.0.bottom" timestamp="1597255215891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.bottom/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253199381" />
+    <state width="938" height="320" key="GridCell.Tab.0.bottom/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255215891" />
+    <state width="938" height="320" key="GridCell.Tab.0.center" timestamp="1597255215891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.center/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253199381" />
+    <state width="938" height="320" key="GridCell.Tab.0.center/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255215891" />
+    <state width="938" height="320" key="GridCell.Tab.0.left" timestamp="1597255215891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.left/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253199381" />
+    <state width="938" height="320" key="GridCell.Tab.0.left/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255215891" />
+    <state width="938" height="320" key="GridCell.Tab.0.right" timestamp="1597255215891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.right/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253199381" />
+    <state width="938" height="320" key="GridCell.Tab.0.right/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255215891" />
+    <state x="787" y="240" key="RollbackChangesDialog" timestamp="1597251469332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="240" key="RollbackChangesDialog/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597251469332" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597255016084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1216" y="58" key="SettingsEditor/-1600.-126.1600.1160/0.0.1920.1040@-1600.-126.1600.1160" timestamp="1597253560174" />
+    <state x="461" y="165" key="SettingsEditor/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255016084" />
+    <state x="697" y="102" width="585" height="702" key="find.popup" timestamp="1595928633126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="102" width="585" height="702" key="find.popup/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1595928633126" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597255165583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1597255165583" />
+    <state x="701" y="384" key="svn4idea.checkout.options" timestamp="1595929685929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="384" key="svn4idea.checkout.options/-1600.-126.1600.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1595929685929" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jpp/games/logic/Rules_Impl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jpp/games/logic/Game_Impl.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jpp/games/networking/server/handler/GameHandler.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jpp/games/networking/server/handler/GameHandler.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
